@@ -1,0 +1,146 @@
+body {
+    background-image: url('/images/bg-body.png');
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+  margin: 0 5px;
+}
+
+.logo {
+  text-align: center;
+  margin: auto;
+  width:180px;
+  height:180px;
+  border-radius:150px;
+}
+
+.main-header {
+  text-align:center;
+}
+
+.toggle-nav {
+  display: none;
+}
+
+.main-nav {
+  display: inline;
+  position: relative;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  line-height: 2;
+}
+
+li {
+  list-style: none;
+  background: #444444;
+  border: 1px solid #ebebeb;
+}
+
+a {
+  color: #ebebeb;
+  text-align: center;
+}
+
+.main-nav a:hover {
+  background-color: white;
+}
+
+.banner {
+    float:left;
+    width: 100%;
+    margin:auto;
+    text-align:center;
+}
+
+.vip-products {
+  margin: 0px;
+  padding: 0px;
+}
+
+.product {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.photo-container {
+  position: relative;
+}
+
+.zoom-container {
+  bottom: 87px;
+}
+
+.more{
+  top: 10px;
+  left: 19px;
+}
+
+.main-footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  height: 21vh;
+  background-color: #B92519;
+}
+
+.main-footer ul li {
+  margin-bottom: 2px;
+  background-color: #B92519;
+}
+
+.main-footer ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.banner img {
+  display: none;
+}
+
+.photo-container{
+  position: relative;
+}
+
+.photo{
+  width: 100%;
+}
+
+.special{
+  position: absolute;
+  right: 2vh;
+  width: 21%;
+}
+
+.zoom {
+  left: 0%;
+  background-color: rgba(0,0,0,0.5);
+  padding: 5px 0;
+  position: absolute;
+  text-decoration: none;
+  bottom: 35%;
+  width: 100%;
+  text-align: center;
+}
+
+.more {
+  background: #444444;
+  padding: 7px;
+}
+
+.main-footer {
+  text-align: center;
+}
+
+.main-footer li {
+  background-color: #b92519;
+}
+
+.main-footer a {
+  text-transform: capitalize;
+}
